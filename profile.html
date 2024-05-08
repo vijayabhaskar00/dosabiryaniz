@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.6.95/css/materialdesignicons.css"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap"
+    rel="stylesheet" />
+
+  <!-- CSS -->
+  <!-- Bootstrap CSS -->
+  <!-- Jquery ui CSS -->
+  <link rel="stylesheet" href="assets/css/jquery-ui.css" />
+  <!-- Smart Menu CSS -->
+  <link rel="stylesheet" href="assets/css/sm-core-css.css" />
+  <link rel="stylesheet" href="assets/css/sm-simple.css" />
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+  <!-- Flaticon CSS -->
+  <link rel="stylesheet" href="assets/flaticon/flaticon.css" />
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+
+  <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
+
+  <!-- Slick Slider -->
+  <link rel="stylesheet" href="assets/slick/slick-theme.css" />
+  <link rel="stylesheet" href="assets/slick/slick.css" />
+  <!-- Youtube Video Player -->
+  <link href="assets/YoutubeVideoModalPlugin/jquery.yu2fvl.css" rel="stylesheet" type="text/css" />
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <!-- Main StyleSheet CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Responsive CSS -->
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <!-- Inter font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      body {
+        background-color: #f9f9fa;
+      }
+
+      .padding {
+        padding: 3rem !important;
+      }
+
+      .user-card-full {
+        overflow: hidden;
+      }
+
+      .card {
+        border-radius: 5px;
+        -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+        box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+        border: none;
+        margin-bottom: 30px;
+      }
+
+      .m-r-0 {
+        margin-right: 0px;
+      }
+
+      .m-l-0 {
+        margin-left: 0px;
+      }
+
+      .user-card-full .user-profile {
+        border-radius: 5px 0 0 5px;
+      }
+
+      .bg-c-lite-green {
+        background: -webkit-gradient(
+          linear,
+          left top,
+          right top,
+          from(#f29263),
+          to(#ee5a6f)
+        );
+        background: linear-gradient(to right, #ee5a6f, #f29263);
+      }
+
+      .user-profile {
+        padding: 20px 0;
+      }
+
+      .card-block {
+        padding: 1.25rem;
+      }
+
+      .m-b-25 {
+        margin-bottom: 25px;
+      }
+
+      .img-radius {
+        border-radius: 5px;
+      }
+
+      h6 {
+        font-size: 14px;
+      }
+
+      .card .card-block p {
+        line-height: 25px;
+      }
+
+      @media only screen and (min-width: 1400px) {
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .card-block {
+        padding: 1.25rem;
+      }
+
+      .b-b-default {
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .m-b-20 {
+        margin-bottom: 20px;
+      }
+
+      .p-b-5 {
+        padding-bottom: 5px !important;
+      }
+
+      .card .card-block p {
+        line-height: 25px;
+      }
+
+      .m-b-10 {
+        margin-bottom: 10px;
+      }
+
+      .text-muted {
+        color: #919aa3 !important;
+      }
+
+      .b-b-default {
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .m-b-20 {
+        margin-bottom: 20px;
+      }
+
+      .m-t-40 {
+        margin-top: 20px;
+      }
+
+      .p-b-5 {
+        padding-bottom: 5px !important;
+      }
+
+      .m-b-10 {
+        margin-bottom: 10px;
+      }
+
+      .m-t-40 {
+        margin-top: 20px;
+      }
+
+      .user-card-full .social-link li {
+        display: inline-block;
+      }
+
+      .user-card-full .social-link li a {
+        font-size: 20px;
+        margin: 0 10px 0 0;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+
+      input {
+        padding: 10px;
+        border: none;
+        background-color: #ccc;
+        border-radius: 4px;
+        outline: none;
+        width: 100%;
+      }
+    </style>
+    <title>User profile</title>
+  </head>
+  <body>
+    <header class="header-area dfoody-header dfdV2">
+      <div class="dfoody-header-box" style="padding: 0;">
+        <div class="container">
+          <div class="row">
+            <div class="col-3 col-md-3">
+              <div class="logo-wrapper">
+                <a href="index.html">
+                  <img src="assets/img/logo.png" alt="" width="200" />
+                </a>
+              </div>
+            </div>
+            <div class="col-9 col-md-9">
+              <div class="gm-box">
+                <div class="gmb-contact">
+                  <p>Call Now: <a href="tel:+12093198189">+1(209) 319-8189</a></p>
+                </div>
+                <div class="dfoody-menu-wrapper">
+                  <!-- Mobile menu toggle button (hamburger/x icon) -->
+                  <input id="dfoodyMenu-state" type="checkbox" />
+                  <label class="dfoodyMenu-btn" for="dfoodyMenu-state">
+                    <span class="dfoodyMenu-btn-icon"></span>
+                  </label>
+                  <ul id="dfoodyMenu" class="sm sm-simple dfoody-menu">
+                    <li>
+                      <a style="text-align: center;" href="index.html">Home</a>
+                    </li>
+                    <li><a style="text-align: center;" href="about.html">About</a></li>
+                    <li>
+                      <!-- <a href="reservation.html">Reservation</a> -->
+                    </li>
+                    <li>
+                      <a style="text-align: center;" href="foodmenu.html">Menu</a>
+                    </li>
+                    <li>
+                      <a style="text-align: center;" href="gallery-1.html">Gallery</a>
+                    </li>
+                    <li>
+                      <a style="text-align: center;" href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                      <a class="btn" style="background-color: #f14668;color: white;margin: 0 20px;"
+                        href="tel:+12093198189" role="button">Order Now</a>
+                    </li>
+                  </ul>
+  
+                </div>
+                <!-- <div class="mt-icons">
+                  <ul class="mti-list">
+                    <li>
+                      <span class="searchIcon">
+                        <i class="flaticon-search"></i>
+                      </span>
+                      <div class="hSearchBox">
+                        <form id="search" action="#" method="post">
+                          <div class="search-o-group">
+                            <input type="text" name="search-terms" id="search-terms"
+                              placeholder="Enter search terms..." />
+                            <button type="submit" class="osearch-btn">
+                              <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </li>
+  
+                    <li>
+                      <span id="cart"><i class="flaticon-shopping-cart"></i><span class="badge">02</span></span>
+                      <div class="shopping-cart">
+                        <div class="shopping-cart-header">
+                          <div class="shopping-cart-total">
+                            <span class="lighter-text">Total:</span>
+                            <span class="main-color-text total">$461.15</span>
+                          </div>
+                        </div> -->
+                <!--end shopping-cart-header -->
+  
+                <!-- <ul class="shopping-cart-items">
+                  <li>
+                    <img src="assets/img/food-menu/mpfood-1.jpg" alt="" />
+                    <span class="item-name">XMREDTREE</span>
+  
+                    <span class="item-price">$49.50</span>
+                    <span class="item-quantity">Quantity: 01</span>
+                    <span class="cartProduct-remove">
+                      <i class="fa fa-times" aria-hidden="true"></i>
+                    </span>
+                  </li>
+  
+                  <li>
+                    <img src="assets/img/food-menu/mpfood-2.jpg" alt="" />
+                    <span class="item-name">XMWHREIN</span>
+  
+                    <span class="item-price">$34.06</span>
+                    <span class="item-quantity">Quantity: 10</span>
+                    <span class="cartProduct-remove">
+                      <i class="fa fa-times" aria-hidden="true"></i>
+                    </span>
+                  </li>
+  
+                  <li>
+                    <img src="assets/img/food-menu/mpfood-3.jpg" alt="" />
+                    <span class="item-name">XMJBRR</span>
+  
+                    <span class="item-price">$14.21</span>
+                    <span class="item-quantity">Quantity: 5</span>
+                    <span class="cartProduct-remove">
+                      <i class="fa fa-times" aria-hidden="true"></i>
+                    </span>
+                  </li>
+                </ul>
+  
+                <a href="#" class="button">Checkout</a>
+              </div> -->
+                <!--end shopping-cart -->
+                </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </header>
+  
+    <div style="padding-top: 80px" >
+      <div class="padding">
+        <div class="row d-flex justify-content-center">
+          <div class="col-xl-6 col-md-12">
+            <div class="card user-card-full">
+              <div class="row m-l-0 m-r-0">
+                <div class="col-sm-4 bg-c-lite-green user-profile">
+                  <div class="card-block text-center text-white">
+                    <div class="m-b-25">
+                      <img
+                        src="https://img.icons8.com/bubbles/100/000000/user.png"
+                        class="img-radius"
+                        alt="User-Profile-Image"
+                      />
+                    </div>
+                    <h6 class="f-w-600">Hembo Tingor</h6>
+                    <i
+                      class="mdi mdi-square-edit-outline feather icon-edit m-t-10 f-16"
+                    ></i>
+                  </div>
+                </div>
+                <div class="col-sm-8">
+                  <div class="card-block">
+                    <h6 class="m-b-20 p-b-5 b-b-default f-w-600">
+                      Information
+                    </h6>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <p class="m-b-10 f-w-600">Name</p>
+                        <input value="mani" />
+                      </div>
+                      <div class="col-sm-6">
+                        <p class="m-b-10 f-w-600">email</p>
+                        <input value="mani@gmail.com" />
+                      </div>
+                      <div class="col-sm-6">
+                        <p class="m-b-10 f-w-600">Phone</p>
+                        <input value="98979989898" />
+                      </div>
+                      <div class="col-sm-6">
+                        <p class="m-b-10 f-w-600">Address</p>
+                        <input value="My address" />
+                      </div>
+                      <div class="col-sm-6">
+                        <p class="m-b-10 f-w-600">Password</p>
+                        <input type="text" value="qpalqpqp" />
+                      </div>
+                     
+                    </div>
+                    <div class="col-sm-6 mt-4">
+                      <button type="button"  class="btn btn-primary btn-lg">Save</button>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+</html>
